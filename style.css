@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Центрируем элементы по вертикали */
+    width: 1200px; /* Устанавливаем ширину блока */
+    height: 29px; /* Устанавливаем высоту блока */
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+    padding-top: 40px;
+}
+
+.logo{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    color:#244D4D;
+}
+
+.navbar ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    display: flex; /* Размещаем элементы списка в строку */
+    font-family: DM Sans;
+}
+
+.navbar li {
+    margin-right: 50px; /* Отступ между пунктами меню */
+}
+
+.navbar a {
+    color: #161616; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.icons {
+    display: flex; /* Размещаем иконки в строку */
+}
+
+.icon {
+    width: 24px; /* Ширина иконки */
+    height: 24px; /* Высота иконки */
+    margin-left: 30px; /* Отступ между иконками */
+}
+
+.Explore-more {
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 1200px;
+    height: 560px;
+    background-color: #154444;
+}
+
+.Explore-more h2 {
+    font-family: Montserrat;
+    line-height: 68px;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.Explore-more p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.Explore button {
+    width: 173px;
+    height: 56px;
+    background-color: #FFFFFF;
+    color: #154444;
+    border: none;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.Explore{
+    padding-right: 18px;
+    margin-right: 100px;
+}
+
+.companies{
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+    margin-top: 140px;
+    text-align: center;
+    align-items: center; 
+    width: 1082px;
+    height: 134px;
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center;
+}
+
+.companies h2{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+    color:#244D4D;
+}
+
+.icons-comp{
+    display: flex; /* Используем Flexbox для размещения иконок в строку */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center;
+    margin-top: 40px;
+}
+.icons-comp img {
+    margin-right: 100px; /* Отступ справа для каждой иконки */
+}
+
+.icons-comp img:last-child {
+    margin-right: 0; /* Убираем отступ у последней иконки */
+}
+
+.AU{
+    width: 1168px;
+    height: 612px;
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin: 0 auto;
+    margin-top: 140px;
+    position: relative;
+
+}
+
+.about-us {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin: 0 auto;
+    margin-top: 140px;
+    position: relative;
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    width: 1168px; /* Ширина блока */
+    height: 612px; /* Высота блока */
+}
+
+.sofa-image {
+    width: 596px; /* Ширина изображения */
+    height: 577px; /* Автоматическая высота для сохранения пропорций */
+}
+
+.about {
+    display: flex; /* Используем Flexbox для размещения элементов в столбик */
+    flex-direction: column; /* Элементы располагаются в столбик */
+    justify-content: flex-start; /* Выравнивание по верхнему краю */
+    margin-left: 20px; /* Отступ между изображением и текстом */
+    width: calc(100% - 596px - 20px); /* Ширина блока с текстом, учитывая отступ */
+    margin-left: 100px;
+}
+
+.about h2 {
+    margin-bottom: 20px; /* Отступ между заголовком и параграфом */
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #244D4D;
+}
+
+.about p{
+    font-weight: 400;
+    font-family: DM Sans;
+    font-size: 20px;
+    line-height: 25px;
+    color: #444444;
+}
+
+.first-block,
+.second-block,
+.third-block {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.first-block img,
+.second-block img,
+.third-block img {
+    margin-right: 30px; /* Отступ между иконкой и текстом */
+    align-self: center;
+}
+
+.text-block {
+    display: flex; /* Используем Flexbox для размещения текста в столбик */
+    flex-direction: column; /* Элементы располагаются в столбик */
+}
+
+.text-block h3 {
+    margin-bottom: 14px; /* Отступ снизу у заголовка */
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #244D4D;
+    margin-bottom: 14px;
+}
+
+.text-block p{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #383738;
+    margin: 0px;
+}
+
+
+.popular{
+    justify-content: flex-start;
+    margin-top: 140px;
+    width: 1200px;
+    height: 584px;
+    justify-content: space-between;
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+    padding-top: 140px;
+}
+
+.frame_1{
+    display:flex;
+    justify-content:space-between
+}
+.group_2{
+    padding-bottom:0px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column
+}
+.text_3{
+    color:#242424;
+    font-size:32px;
+    font-weight:700;
+    font-family:Montserrat;
+    line-height:52px;
+    text-align:center;
+    white-space:nowrap;
+    display:flex
+}
+.text_4{
+    color:#383738;
+    font-size:20px;
+    font-family:DM Sans;
+    font-weight:400;
+    line-height:27px;
+    white-space:nowrap;
+    display:flex
+}
+.group_5{
+    margin-top:82.56px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.frame_6{
+    width:40px;
+    height:40px;
+    display:flex;
+    margin-right: 16px;
+}
+.frame_7{
+    width:40px;
+    height:40px;
+    display:flex
+}
