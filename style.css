@@ -3,12 +3,12 @@ body {
 }
 
 .header {
-    display: flex; /* Используем Flexbox для размещения элементов в строку */
-    justify-content: space-between; /* Распределяем пространство между элементами */
-    align-items: center; /* Центрируем элементы по вертикали */
-    width: 1200px; /* Устанавливаем ширину блока */
-    height: 29px; /* Устанавливаем высоту блока */
-    margin: 0 auto; /* Центрируем блок по горизонтали */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 1200px; 
+    height: 29px; 
+    margin: 0 auto; 
     padding-top: 40px;
 }
 
@@ -20,34 +20,34 @@ body {
 }
 
 .navbar ul {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
-    display: flex; /* Размещаем элементы списка в строку */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
     font-family: DM Sans;
 }
 
 .navbar li {
-    margin-right: 50px; /* Отступ между пунктами меню */
+    margin-right: 50px;
 }
 
 .navbar a {
-    color: #161616; /* Цвет текста ссылок */
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #161616; 
+    text-decoration: none; 
 }
 
 .icons {
-    display: flex; /* Размещаем иконки в строку */
+    display: flex; 
 }
 
 .icon {
-    width: 24px; /* Ширина иконки */
-    height: 24px; /* Высота иконки */
-    margin-left: 30px; /* Отступ между иконками */
+    width: 24px; 
+    height: 24px; 
+    margin-left: 30px; 
 }
 
 .Explore-more {
-    margin: 0 auto; /* Центрируем блок по горизонтали */
+    margin: 0 auto;
     margin-top: 26px;
     display: flex;
     justify-content: space-between; 
@@ -92,13 +92,13 @@ body {
 }
 
 .companies{
-    margin: 0 auto; /* Центрируем блок по горизонтали */
+    margin: 0 auto; 
     margin-top: 140px;
     text-align: center;
     align-items: center; 
     width: 1082px;
     height: 134px;
-    justify-content: space-between; /* Распределяем пространство между элементами */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -110,25 +110,25 @@ body {
 }
 
 .icons-comp{
-    display: flex; /* Используем Flexbox для размещения иконок в строку */
-    justify-content: space-between; /* Распределяем пространство между элементами */
+    display: flex; 
+    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
 }
 .icons-comp img {
-    margin-right: 100px; /* Отступ справа для каждой иконки */
+    margin-right: 100px; 
 }
 
 .icons-comp img:last-child {
-    margin-right: 0; /* Убираем отступ у последней иконки */
+    margin-right: 0;
 }
 
 .AU{
     width: 1168px;
     height: 612px;
-    display: flex; /* Используем Flexbox для размещения элементов в строку */
-    justify-content: space-between; /* Распределяем пространство между элементами */
-    align-items: center; /* Центрируем элементы по вертикали */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     margin: 0 auto;
     margin-top: 140px;
     position: relative;
@@ -136,33 +136,34 @@ body {
 }
 
 .about-us {
-    display: flex; /* Используем Flexbox для размещения элементов в строку */
-    justify-content: space-between; /* Распределяем пространство между элементами */
-    align-items: center; /* Центрируем элементы по вертикали */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
     margin: 0 auto;
     margin-top: 140px;
     position: relative;
-    display: flex; /* Используем Flexbox для размещения элементов в строку */
-    width: 1168px; /* Ширина блока */
-    height: 612px; /* Высота блока */
+    display: flex; 
+    width: 1168px; 
+    height: 612px; 
+    margin-bottom: 140px;
 }
 
 .sofa-image {
-    width: 596px; /* Ширина изображения */
-    height: 577px; /* Автоматическая высота для сохранения пропорций */
+    width: 596px;
+    height: 577px; 
 }
 
 .about {
-    display: flex; /* Используем Flexbox для размещения элементов в столбик */
-    flex-direction: column; /* Элементы располагаются в столбик */
-    justify-content: flex-start; /* Выравнивание по верхнему краю */
-    margin-left: 20px; /* Отступ между изображением и текстом */
-    width: calc(100% - 596px - 20px); /* Ширина блока с текстом, учитывая отступ */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    margin-left: 20px;
+    width: calc(100% - 596px - 20px); 
     margin-left: 100px;
 }
 
 .about h2 {
-    margin-bottom: 20px; /* Отступ между заголовком и параграфом */
+    margin-bottom: 20px; 
     font-family: Montserrat;
     font-weight: 700;
     font-size: 32px;
@@ -188,17 +189,17 @@ body {
 .first-block img,
 .second-block img,
 .third-block img {
-    margin-right: 30px; /* Отступ между иконкой и текстом */
+    margin-right: 30px;
     align-self: center;
 }
 
 .text-block {
-    display: flex; /* Используем Flexbox для размещения текста в столбик */
-    flex-direction: column; /* Элементы располагаются в столбик */
+    display: flex; 
+    flex-direction: column; 
 }
 
 .text-block h3 {
-    margin-bottom: 14px; /* Отступ снизу у заголовка */
+    margin-bottom: 14px; 
     font-family: Montserrat;
     font-weight: 700;
     font-size: 20px;
@@ -216,60 +217,646 @@ body {
     margin: 0px;
 }
 
-
-.popular{
-    justify-content: flex-start;
-    margin-top: 140px;
-    width: 1200px;
-    height: 584px;
-    justify-content: space-between;
-    margin: 0 auto; /* Центрируем блок по горизонтали */
-    padding-top: 140px;
+.popular {
+  display: flex;
+  align-items: flex-end; 
+  width: 1200px;
+  height: auto; 
+  justify-content: space-between;
+  margin: 0 auto; 
 }
 
-.frame_1{
-    display:flex;
-    justify-content:space-between
+.content {
+  width: 820px;
+  height: 123px;
 }
-.group_2{
-    padding-bottom:0px;
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column
+
+.content h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
 }
-.text_3{
-    color:#242424;
-    font-size:32px;
-    font-weight:700;
-    font-family:Montserrat;
-    line-height:52px;
-    text-align:center;
-    white-space:nowrap;
-    display:flex
+
+.content p {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
 }
-.text_4{
-    color:#383738;
-    font-size:20px;
-    font-family:DM Sans;
-    font-weight:400;
-    line-height:27px;
-    white-space:nowrap;
-    display:flex
+
+.arrows {
+ display:flex; 
+ align-items:flex-end; 
+ justify-content:center; 
 }
-.group_5{
-    margin-top:82.56px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+
+.arrow{
+  margin-right: 16px;
 }
-.frame_6{
-    width:40px;
-    height:40px;
-    display:flex;
-    margin-right: 16px;
+
+.cards-block{
+  display: flex; 
+  margin: 0 auto;
+  display: flex; 
+  width: 1168px; 
+  height: 612px; 
 }
-.frame_7{
-    width:40px;
-    height:40px;
-    display:flex
+
+.text h3{
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
 }
+
+.text p{
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  color:#154444;
+
+}
+
+.cards-block {
+  display: flex;
+  justify-content: center; 
+  margin-top: 80px;
+}
+
+.card1 {
+  position: relative;
+  width: 380px;
+  height: 382px;
+  margin-right: 30px; 
+}
+
+.card2 {
+  position: relative;
+  width: 380px;
+  height: 382px;
+  margin-right: 30px; 
+}
+
+.rectangle {
+  border: none;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 13px 26px 0px #00000012;
+}
+
+.foto1{
+  width: 380px;
+  height: 246px;
+}
+
+.description {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 30px;
+  margin-bottom: 27px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-button{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.buy{
+  background-color: #244D4D; 
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+
+.likeShare{
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.text button{
+  background-color: #244D4D; 
+  padding: 5px 14px;
+  color: #FFFFFF;
+}
+
+.like{
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.share{
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+.Allfurniture{
+  margin-top: 140px;
+  display: flex;
+  width: 1200px;
+  height: auto; 
+  justify-content: center;
+  margin: 0 auto;  
+  flex-direction: column; 
+}
+
+.firstb{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstb h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color:#242424;
+}
+
+.first-link {
+  text-decoration: underline;
+  color: #154444; 
+  text-decoration: none;
+  border-bottom: 3px solid #154444;
+  text-decoration-color: #154444;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  width: calc(50%);
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  margin-right: 100px;
+}
+
+.other-link {
+  color: #919090;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  margin-right: 104px;
+}
+
+.categor{
+  margin-top: 20px;
+  justify-content:center;
+}
+
+.secondb{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+  flex-direction: row;
+}
+
+.razdel{
+  margin-left: 147px;
+  display: flex; 
+  flex-wrap: wrap; 
+
+}
+
+
+.living, .kitchen, .dining, .office, .bedRoom, .hallway {
+  text-align:center; 
+}
+
+.foto2{
+      position: relative; 
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.living,.dining, .bedRoom {
+  margin-right: 30px;
+}
+
+.living,.kitchen,.dining,.bedRoom,.hallway{
+  border: 1.5px solid #D9DCE5;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  color: #808080;
+  justify-content: center;
+  width: 222px;
+  height: 90px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.office{
+  width: 222px;
+  height: 90px;
+  background-color:#154444;
+  align-items: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  color:#FFFFFF;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+/* .rect1{ */
+  /* position: relative;  */
+  /* position: absolute;
+  width: 190px;
+  height: 86px;
+  background-color: #154444;
+  width: 190.1015625;
+  height: 85.8670883178711;
+  top: 183.32px; */
+/* } */
+
+.rect2{
+  margin-left: 386px;
+  margin-top: -80px;
+  width: 190px;
+  height: 86px;
+  background-color: #154444;
+}
+
+.first-arrow, .second-arrow, .third-arrow{
+  display: flex; 
+  flex-direction: row; 
+  margin-bottom: 30px; 
+}
+
+
+.customers{
+  display: flex; 
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 140px;
+  position: relative;
+  display: flex; 
+  width: 1168px; 
+  height: 612px; 
+}
+
+.block{
+  margin-left: 100px;
+}
+
+
+.textb h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.textb p{
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.otz{
+  display: flex;
+  align-items: center; 
+}
+
+.iconn img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.txt{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.txt h3{
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+}
+
+.rating{
+  align-items:center;
+  display: flex;
+  margin-top: 6px;
+}
+
+
+.rating p{
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+
+.rating img{
+  margin-right: 8px;
+}
+
+
+.subscribe{
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 140px;
+  width: 1200px; 
+  height: 394px; 
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F6F6;
+}
+
+.subscribe h2{
+  padding-top: 68px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  color:#222222;
+  margin: 0;
+}
+
+.subscribe p{
+  padding-top: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color:#222222;
+}
+
+.pochta{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pole{
+  width: 472px;
+  height: 67px;
+  background-color: #fff;
+  display: flex; 
+  align-items: center; 
+}
+
+.text7{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.text7 img{
+  margin-right: 12px;
+  margin-left: 18px;
+  width: 16px;
+  height: 16px;
+}
+
+.register{
+  position: absolute;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #305F64;
+  padding: 15, 30;
+  color: #FFFFFF;
+  width: 125px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pole p{
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color:#BABABA;
+}
+
+.pole button{
+  margin-left: 327px;
+}
+
+.text7 p{
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color:#BABABA;
+  padding: 0;
+}
+
+.footer{
+  display: flex;
+  margin: 140px auto 0;
+  height: 442px;
+  background-color: #305F64;
+  flex-direction: column;
+}
+.footc{
+  display: flex;
+  gap: 108px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.info h1{
+  margin-top: 100px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+  letter-spacing: 0%;  
+  color: #FFFFFF;
+}
+
+.info p{  
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color:#FFFFFF 
+}
+
+.social_network h3{
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      color: #FFFFFF;
+  }
+
+.links_s{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  
+}
+
+.link_s img{
+    width: 20px;
+    height: 20px;
+}
+
+.list{
+  margin-top: 100px;
+  display: flex;
+}
+
+.list ul{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+.list h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+
+.item a{
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+.list2{
+  margin-left: 100px;
+}
+
+
+.subscribes h4{
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.subscribes p{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 24px;
+  width: 240px;
+
+}
+
+
+.form{
+  margin-top: 40px;
+  width: 253px;
+  height: 48px;
+  display: flex;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: space-between;
+} 
+.form input{
+  outline: none;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 22px;
+}
+
+.form button{
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: #FFB624;
+  margin-right: 12px;
+}
+
+.form img{
+  width: 16px;
+  height: 16px;
+  margin: 6px;
+}
+    
+.copyright{
+  margin-top: 20px;
+  border-top: thin solid #407980;
+  margin-bottom: 20px;
+}
+
+.copyright p{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
