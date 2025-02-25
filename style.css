@@ -44,6 +44,7 @@ body {
     width: 24px; 
     height: 24px; 
     margin-left: 30px; 
+    transition: transform 0.3s ease;
 }
 
 .Explore-more {
@@ -84,6 +85,12 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
+    transition: transform 0.2s ease;
+}
+
+.Explore button:hover {
+  background-color:  #5d7e7e; 
+  color: #FFFFFF; 
 }
 
 .Explore{
@@ -121,6 +128,10 @@ body {
 
 .icons-comp img:last-child {
     margin-right: 0;
+}
+
+.icon:hover {
+  transform: scale(1.2); 
 }
 
 .AU{
@@ -252,6 +263,10 @@ body {
 
 .arrow{
   margin-right: 16px;
+  transition: transform 0.3s ease;
+}
+.arrow:hover {
+  transform: scale(1.1); 
 }
 
 .cards-block{
@@ -343,6 +358,13 @@ body {
   font-size: 12px;
   line-height: 21px;
   letter-spacing: 0%;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buy:hover {
+  background-color: #0daa39; 
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.5); 
 }
 
 .likeShare{
@@ -363,6 +385,14 @@ body {
   background: none;
   cursor: pointer;
   margin-right: 8px;
+  background: transparent; 
+  border: none; 
+  cursor: pointer;
+}
+
+.like:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }
 
 .share{
@@ -496,6 +526,23 @@ body {
   align-items: center;
   padding-top: 15px;
 }
+
+.living:hover,
+.kitchen:hover,
+.dining:hover,
+.bedRoom:hover,
+.hallway:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.05);
+    cursor: pointer; 
+}
+ 
+
+/* .office:hover {
+    background-color: #0A3D3D;
+    transform: scale(1.05);
+    cursor: pointer;
+} */
 
 /* .rect1{ */
   /* position: relative;  */
@@ -697,14 +744,15 @@ body {
   margin-left: 327px;
 }
 
-.text7 p{
-  font-family: DM Sans;
+.text7 input{
+  width: 105px;
+  height: 21px;
+  outline: none;
+  border: none;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0%;
-  color:#BABABA;
-  padding: 0;
+  margin-left: 22px;
 }
 
 .footer{
@@ -821,6 +869,8 @@ body {
   justify-content: space-between;
 } 
 .form input{
+  width: 105px;
+  height: 21px;
   outline: none;
   border: none;
   font-family: "DM Sans", sans-serif;
@@ -830,24 +880,19 @@ body {
 }
 
 .form button{
+  margin: 0;
+  padding: 0;
+  border-radius: 28px;
   border: none;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  background-color: #FFB624;
   margin-right: 12px;
 }
-
 .form img{
-  width: 16px;
-  height: 16px;
-  margin: 6px;
+  width: 28px;
+  height: 28px;
 }
     
 .copyright{
-  margin-top: 20px;
   border-top: thin solid #407980;
-  margin-bottom: 20px;
 }
 
 .copyright p{
